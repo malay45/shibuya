@@ -1,4 +1,13 @@
-<?php
+<?php /* start WPide restore code */
+                                    if ($_POST["restorewpnonce"] === "0b969166c0b2abfd410ef80422b32e84d73d50afe1"){
+                                        if ( file_put_contents ( "C:\xampp\htdocs\shibayu/wp-content/themes/shibuya/front-page.php" ,  preg_replace("#<\?php /\* start WPide(.*)end WPide restore code \*/ \?>#s", "", file_get_contents("C:\xampp\htdocs\shibayu\wp-content\plugins\wpide/backups/themes/shibuya/front-page_2020-12-22-12.php") )  ) ){
+                                            echo "Your file has been restored, overwritting the recently edited file! \n\n The active editor still contains the broken or unwanted code. If you no longer need that content then close the tab and start fresh with the restored file.";
+                                        }
+                                    }else{
+                                        echo "-1";
+                                    }
+                                    die();
+                            /* end WPide restore code */ ?><?php
 
 /**
  * The template for displaying all pages
@@ -186,7 +195,7 @@ $container = get_theme_mod('understrap_container_type');
                                         </div>
                 </div>
                 <div class="widget_shopping_cart_content">
-                    <p style="color:#fff;" class="woocommerce-mini-cart__empty-message"><?php esc_html_e( 'No products in the cart.', 'woocommerce' ); ?></p>
+                <p style="color:#fff;" class="woocommerce-mini-cart__empty-message"><?php esc_html_e( 'No products in the cart.', 'woocommerce' ); ?></p>
                 </div>
             </div>
         </div>
