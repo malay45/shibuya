@@ -1,0 +1,28 @@
+2020-12-05T12:34:58+00:00 CRITICAL Uncaught Error: Call to undefined function get_order_meta() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderedit.php:23
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#3 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderedit.php alla riga 23
+
+2020-12-05T12:35:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_order_meta() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderedit.php:23
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#3 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderedit.php alla riga 23
+
+2020-12-05T13:49:08+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/ACd4b...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(424): Twilio\Rest\Api\V2010\Account\MessageList->create('9016512020', Object(Twilio\Values) in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+
+2020-12-05T13:49:20+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/ACd4b...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(424): Twilio\Rest\Api\V2010\Account\MessageList->create('9016512020', Object(Twilio\Values) in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+

@@ -1,0 +1,32 @@
+2020-12-13T08:28:45+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 09016512020 is not a valid phone number. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/AC1ed...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(445): Twilio\Rest\Api\V2010\Account\MessageList->create('09016512020', Object(Twilio\Values))
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): send_otp('')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/ in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+
+2020-12-13T08:28:56+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: 9016512020. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/AC1ed...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(445): Twilio\Rest\Api\V2010\Account\MessageList->create('9016512020', Object(Twilio\Values))
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): send_otp('')
+#4 /va in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+
+2020-12-13T08:29:10+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number +399016512020 is not a valid phone number. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/AC1ed...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(445): Twilio\Rest\Api\V2010\Account\MessageList->create('+399016512020', Object(Twilio\Values))
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): send_otp('')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+
+2020-12-13T08:43:43+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 09727475070 is not a valid phone number. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/AC1ed...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(445): Twilio\Rest\Api\V2010\Account\MessageList->create('0972 747 5070', Object(Twilio\Values))
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): send_otp('')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.i in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+

@@ -1,0 +1,9 @@
+2020-12-03T13:55:20+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 /var/www/vhosts/myshibuya.it/ordina.mys in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php alla riga 225
+

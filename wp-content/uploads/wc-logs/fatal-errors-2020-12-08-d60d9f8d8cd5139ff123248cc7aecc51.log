@@ -1,0 +1,157 @@
+2020-12-08T11:26:54+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 09016512020 is not a valid phone number. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/ACd4b...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(425): Twilio\Rest\Api\V2010\Account\MessageList->create('09016512020', Object(Twilio\Values))
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): send_otp('')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/ in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+
+2020-12-08T13:33:39+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php alla riga 13
+
+2020-12-08T13:33:41+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php alla riga 13
+
+2020-12-08T13:33:42+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php alla riga 13
+
+2020-12-08T13:34:47+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php on line 13
+
+2020-12-08T13:35:38+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php alla riga 13
+
+2020-12-08T13:35:39+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php alla riga 13
+
+2020-12-08T13:35:47+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php on line 13
+
+2020-12-08T13:37:29+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php on line 13
+
+2020-12-08T13:38:03+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php on line 13
+
+2020-12-08T13:38:29+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php on line 13
+
+2020-12-08T13:39:07+00:00 CRITICAL Uncaught Error: Class 'WC_Reminder_Order_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php:5
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): add_reminder_email(Array)
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-emails.php(233): apply_filters('woocommerce_ema...', Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-emails.php(190): WC_Emails->init()
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-emails.php(52): WC_Emails->__construct()
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/PageController.php(270): WC_Emails::instance()
+#6 / in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php on line 5
+
+2020-12-08T13:39:25+00:00 CRITICAL Uncaught Error: Class 'WC_Reminder_Order_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php:41
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): add_reminder_email(Array)
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-emails.php(233): apply_filters('woocommerce_ema...', Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-emails.php(190): WC_Emails->init()
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-emails.php(52): WC_Emails->__construct()
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/PageController.php(270): WC_Emails::instance()
+#6  in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php on line 41
+
+2020-12-08T13:39:26+00:00 CRITICAL Uncaught Error: Class 'WC_Reminder_Order_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php:41
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): add_reminder_email(Array)
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-emails.php(233): apply_filters('woocommerce_ema...', Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-emails.php(190): WC_Emails->init()
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-emails.php(52): WC_Emails->__construct()
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/PageController.php(270): WC_Emails::instance()
+#6  in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php on line 41
+
+2020-12-08T13:39:35+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php on line 3
+
+2020-12-08T13:39:36+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php alla riga 3
+
+2020-12-08T13:40:29+00:00 CRITICAL Class 'WC_Email' not found in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/reminder-email.php on line 3
+
+2020-12-08T13:47:56+00:00 CRITICAL Uncaught Error: Call to undefined function data() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:446
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp.php(758): do_action_ref_array('wp', Array)
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/functions.php(1285): WP->main('')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(16): wp()
+#6 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#7 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 446
+
+2020-12-08T13:59:32+00:00 CRITICAL syntax error, unexpected '}' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php on line 457
+
+2020-12-08T14:01:33+00:00 CRITICAL syntax error, unexpected '}' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php on line 457
+
+2020-12-08T14:02:41+00:00 CRITICAL syntax error, unexpected '}' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 457
+
+2020-12-08T14:02:42+00:00 CRITICAL syntax error, unexpected '}' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 457
+
+2020-12-08T14:02:52+00:00 CRITICAL syntax error, unexpected '}' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 457
+
+2020-12-08T14:02:52+00:00 CRITICAL syntax error, unexpected '}' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 457
+
+2020-12-08T14:03:08+00:00 CRITICAL syntax error, unexpected '}' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 457
+
+2020-12-08T14:03:09+00:00 CRITICAL syntax error, unexpected '}' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 457
+
+2020-12-08T14:26:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Reminder_Order_Email::get_content_html(), 0 passed in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php on line 541 and exactly 1 expected in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/class-reminder-email.php:44
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(541): WC_Reminder_Order_Email->get_content_html()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/class-reminder-email.php(55): WC_Email->get_content(105)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): WC_Reminder_Order_Email->trigger(105)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.i in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/class-reminder-email.php alla riga 44
+
+2020-12-08T14:34:21+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_date() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/emails/reminder-email.php:16
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('emails/reminder...', Array, '', '')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/class-reminder-email.php(48): wc_get_template_html('emails/reminder...', Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(541): WC_Reminder_Order_Email->get_content_html()
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/class-reminder-email.php(59): WC_Email->get_content in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/emails/reminder-email.php alla riga 16
+
+2020-12-08T14:34:24+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_date() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/emails/reminder-email.php:16
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('emails/reminder...', Array, '', '')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/class-reminder-email.php(48): wc_get_template_html('emails/reminder...', Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(541): WC_Reminder_Order_Email->get_content_html()
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/class-reminder-email.php(59): WC_Email->get_content in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/emails/reminder-email.php alla riga 16
+
+2020-12-08T18:31:06+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_title() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/emails/reminder-email.php:33
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('emails/reminder...', Array, '', '')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/class-reminder-email.php(48): wc_get_template_html('emails/reminder...', Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(541): WC_Reminder_Order_Email->get_content_html()
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/class-reminder-email.php(59): WC_Email->get_content()
+#5 /var/www/vhosts/myshibuya.it/ord in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/emails/reminder-email.php alla riga 33
+
+2020-12-08T18:55:02+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_tax_total() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/emails/reminder-email.php:107
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('emails/reminder...', Array, '', '')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/class-reminder-email.php(48): wc_get_template_html('emails/reminder...', Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(541): WC_Reminder_Order_Email->get_content_html()
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/include/functions/class-reminder-email.php(59): WC_Email->get_c in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/emails/reminder-email.php alla riga 107
+
+2020-12-08T19:07:38+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Twilio\Rest\Api\V2010\Account\MessageList::create() must be of the type string, null given, called in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php on line 479 and defined in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php:44
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(479): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Array)
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp.php(758): do_action_ref_array('wp in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php alla riga 44
+
+2020-12-08T19:07:56+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Twilio\Rest\Api\V2010\Account\MessageList::create() must be of the type string, null given, called in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php on line 479 and defined in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php:44
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(479): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Array)
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp.php(758): do_action_ref_array('wp in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php alla riga 44
+
+2020-12-08T19:10:06+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 09016512020 is not a valid phone number. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/ACd4b...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(479): Twilio\Rest\Api\V2010\Account\MessageList->create('09016512020', Object(Twilio\Values))
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#4 /var/www/vhosts/myshibuya.it/ordina.mysh in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+

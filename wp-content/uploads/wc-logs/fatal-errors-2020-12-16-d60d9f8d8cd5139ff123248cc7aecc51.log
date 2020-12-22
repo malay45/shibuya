@@ -1,0 +1,9 @@
+2020-12-16T13:45:25+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number +39123123123123 is not a valid phone number. in /home/ru4526e7/public_html/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /home/ru4526e7/public_html/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/ru4526e7/public_html/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/AC1ed...', Array, Array)
+#2 /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php(448): Twilio\Rest\Api\V2010\Account\MessageList->create('+39123123123123', Object(Twilio\Values))
+#3 /home/ru4526e7/public_html/wp-includes/class-wp-hook.php(287): send_otp('')
+#4 /home/ru4526e7/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/ru4526e7/public_html/wp-includes/plugin.php(4 in /home/ru4526e7/public_html/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+

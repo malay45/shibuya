@@ -1,0 +1,71 @@
+2020-12-07T10:03:19+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents_total() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:287
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): header_price(Array)
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(195): apply_filters('woocommerce_add...', Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): WC_AJAX::get_refreshed_fragments('')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-aja in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 287
+
+2020-12-07T10:03:25+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents_total() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:287
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): header_price(Array)
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(195): apply_filters('woocommerce_add...', Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(260): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): woocommerce_ajax_add_to_cart('')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(478): W in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 287
+
+2020-12-07T10:24:27+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/ACd4b...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(425): Twilio\Rest\Api\V2010\Account\MessageList->create('+919727950363', Object(Twilio\Valu in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+
+2020-12-07T10:24:36+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/ACd4b...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(425): Twilio\Rest\Api\V2010\Account\MessageList->create('+919727950363', Object(Twilio\Valu in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+
+2020-12-07T10:24:54+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/ACd4b...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(425): Twilio\Rest\Api\V2010\Account\MessageList->create('+919727950363', Object(Twilio\Valu in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+
+2020-12-07T15:38:05+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: 3407187822. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/ACd4b...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(425): Twilio\Rest\Api\V2010\Account\MessageList->create('3407187822', Object(Twilio\Values))
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): send_otp('')
+#4 /va in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+
+2020-12-07T15:38:41+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: 3407187822. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/ACd4b...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(425): Twilio\Rest\Api\V2010\Account\MessageList->create('3407187822', Object(Twilio\Values))
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): send_otp('')
+#4 /va in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+
+2020-12-07T15:38:59+00:00 CRITICAL Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: 3407187822. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php:88
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Rest/Api/V2010/Account/MessageList.php(66): Twilio\Version->create('POST', '/Accounts/ACd4b...', Array, Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(425): Twilio\Rest\Api\V2010\Account\MessageList->create('3407187822', Object(Twilio\Values))
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): send_otp('')
+#4 /va in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/twilio-php-main/src/Twilio/Version.php alla riga 88
+
+2020-12-07T20:39:39+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 /var/www/vhosts/myshibuya.it/ordina.mys in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php alla riga 225
+

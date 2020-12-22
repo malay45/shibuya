@@ -1,0 +1,58 @@
+2020-12-15T07:22:30+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (14/12/2020) at position 0 (1): Unexpected character in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:512
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(512): DateTime->__construct('14/12/2020')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/checkout/form-checkout.php(162): get_vendor_open_dates('121')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/vhosts...')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::chec in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 512
+
+2020-12-15T07:23:09+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (14/12/2020) at position 0 (1): Unexpected character in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:512
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(512): DateTime->__construct('14/12/2020')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/checkout/form-checkout.php(162): get_vendor_open_dates('121')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/vhosts...')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::chec in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 512
+
+2020-12-15T07:23:37+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (14/12/2020) at position 0 (1): Unexpected character in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:514
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(514): DateTime->__construct('14/12/2020')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/checkout/form-checkout.php(162): get_vendor_open_dates('121')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/vhosts...')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::chec in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 514
+
+2020-12-15T07:24:10+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (24/12/2020) at position 0 (2): Unexpected character in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:516
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(516): DateTime->__construct('24/12/2020')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/checkout/form-checkout.php(162): get_vendor_open_dates('121')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/vhosts...')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::chec in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 516
+
+2020-12-15T07:24:11+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (24/12/2020) at position 0 (2): Unexpected character in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:516
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(516): DateTime->__construct('24/12/2020')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/checkout/form-checkout.php(162): get_vendor_open_dates('121')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/vhosts...')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::chec in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 516
+
+2020-12-15T07:24:13+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (24/12/2020) at position 0 (2): Unexpected character in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:516
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php(516): DateTime->__construct('24/12/2020')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/checkout/form-checkout.php(162): get_vendor_open_dates('121')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/vhosts...')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::chec in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 516
+
+2020-12-15T11:45:33+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php(323): WC_Cart->set_quantity('a5e00132373a703...', '0')
+#6 /home/ru4526e7/public_html/wp-includes/class-w in /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php alla riga 225
+

@@ -1,0 +1,66 @@
+2020-12-02T05:37:43+00:00 CRITICAL syntax error, unexpected 'die' (T_EXIT), expecting ',' or ';' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 139
+
+2020-12-02T05:37:59+00:00 CRITICAL syntax error, unexpected 'die' (T_EXIT), expecting ',' or ';' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 139
+
+2020-12-02T06:21:05+00:00 CRITICAL syntax error, unexpected '.' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 262
+
+2020-12-02T06:56:11+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 /var/www/vhosts/myshibuya.it/ordina.mys in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php alla riga 225
+
+2020-12-02T06:57:23+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 /var/www/vhosts/myshibuya.it/ordina.mys in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php alla riga 225
+
+2020-12-02T06:59:21+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 /var/www/vhosts/myshibuya.it/ordina.mys in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php alla riga 225
+
+2020-12-02T07:00:02+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 /var/www/vhosts/myshibuya.it/ordina.mys in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php alla riga 225
+
+2020-12-02T07:00:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_refreshed_fragments() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:279
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): mini_cart_change_quanity('')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-admin/admin-ajax.php(176): do_action('wp_ajax_mini_ca...')
+#4 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 279
+
+2020-12-02T07:01:38+00:00 CRITICAL Uncaught Error: Call to undefined function get_refreshed_fragments() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:280
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(287): mini_cart_change_quanity('')
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-admin/admin-ajax.php(176): do_action('wp_ajax_mini_ca...')
+#4 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 280
+
+2020-12-02T07:21:17+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 265
+
+2020-12-02T07:21:17+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 265
+
+2020-12-02T07:21:20+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php on line 265
+

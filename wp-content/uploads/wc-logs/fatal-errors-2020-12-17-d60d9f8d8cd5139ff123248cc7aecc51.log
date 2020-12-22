@@ -1,0 +1,32 @@
+2020-12-17T09:27:57+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php(326): WC_Cart->set_quantity('1d7f7abc18fcb43...', '0')
+#6 /home/ru4526e7/public_html/wp-includes/class-w in /home/ru4526e7/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php alla riga 225
+
+2020-12-17T11:34:42+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /home/ru4526e7/public_html/wp-content/themes/shibuya/woocommerce/checkout/form-checkout.php alla riga 159
+
+2020-12-17T12:56:30+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php alla riga 553
+
+2020-12-17T12:56:31+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php alla riga 553
+
+2020-12-17T12:56:59+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php alla riga 553
+
+2020-12-17T12:56:59+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php alla riga 553
+
+2020-12-17T12:57:35+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php alla riga 553
+
+2020-12-17T12:57:35+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php alla riga 553
+
+2020-12-17T12:58:00+00:00 CRITICAL syntax error, unexpected '<' in /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php alla riga 553
+
+2020-12-17T12:58:01+00:00 CRITICAL syntax error, unexpected '<' in /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php alla riga 553
+
+2020-12-17T12:59:16+00:00 CRITICAL syntax error, unexpected '.' in /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php alla riga 554
+
+2020-12-17T12:59:17+00:00 CRITICAL syntax error, unexpected '.' in /home/ru4526e7/public_html/wp-content/themes/shibuya/functions.php alla riga 554
+

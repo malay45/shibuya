@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-BlackItalic.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-BlackItalic.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-Black.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-Black.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-Black.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans Condensed';
+    src: url('../fonts/Eurotypo/EurotypoSans-CondensedThin.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-CondensedThin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-CondensedThin.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-CondensedThin.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-CondensedThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-BoldItalic.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-BoldItalic.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-Bold.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-Bold.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-Bold.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans Condensed';
+    src: url('../fonts/Eurotypo/EurotypoSans-CondensedThinItali.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-CondensedThinItali.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-CondensedThinItali.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-CondensedThinItali.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-CondensedThinItali.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-ExpandedBlack.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-ExpandedBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-ExpandedBlack.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-ExpandedBlack.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-ExpandedBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-ExtracondensedThin.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-ExtracondensedThin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-ExtracondensedThin.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-ExtracondensedThin.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-ExtracondensedThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-Italic.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-Italic.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-Italic.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-LightItalic.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-LightItalic.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-LightItalic.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-ExpandedBlackItali.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-ExpandedBlackItali.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-ExpandedBlackItali.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-ExpandedBlackItali.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-ExpandedBlackItali.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-Light.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-Light.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-Light.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-HeavyItalic.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-HeavyItalic.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-SemiBold.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-SemiBold.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-ExtracondensedUltr.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-ExtracondensedUltr.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-ExtracondensedUltr.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-ExtracondensedUltr.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-ExtracondensedUltr.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-Heavy.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-Heavy.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-Heavy.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-SemiBoldItalic.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans Condensed';
+    src: url('../fonts/Eurotypo/EurotypoSans-SemicondensedThin.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-SemicondensedThin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-SemicondensedThin.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-SemicondensedThin.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-SemicondensedThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-Thin.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-Thin.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-Thin.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-SemicondensedThinI.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-SemicondensedThinI.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-SemicondensedThinI.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-SemicondensedThinI.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-SemicondensedThinI.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurotypo Sans';
+    src: url('../fonts/Eurotypo/EurotypoSans-ThinItalic.eot');
+    src: url('../fonts/Eurotypo/EurotypoSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurotypo/EurotypoSans-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Eurotypo/EurotypoSans-ThinItalic.woff') format('woff'),
+        url('../fonts/Eurotypo/EurotypoSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+

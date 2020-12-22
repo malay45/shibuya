@@ -1,0 +1,44 @@
+2020-12-01T20:22:49+00:00 CRITICAL Uncaught Error: Call to undefined function the_tilte() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/content-product.php:33
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template.php(732): require()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/vhosts...', false)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/front-page.php(119): wc_get_template_part('content', 'product')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#6 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/content-product.php alla riga 33
+
+2020-12-01T20:23:18+00:00 CRITICAL Uncaught Error: Call to a member function get_tilte() on null in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/content-product.php:33
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template.php(732): require()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/vhosts...', false)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/front-page.php(119): wc_get_template_part('content', 'product')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#6 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/content-product.php alla riga 33
+
+2020-12-01T20:23:29+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_tilte() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/content-product.php:33
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template.php(732): require()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/vhosts...', false)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/front-page.php(119): wc_get_template_part('content', 'product')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#6 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/content-product.php alla riga 33
+
+2020-12-01T20:24:18+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_content() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/content-product.php:35
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template.php(732): require()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/vhosts...', false)
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/front-page.php(119): wc_get_template_part('content', 'product')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#6 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/woocommerce/content-product.php alla riga 35
+

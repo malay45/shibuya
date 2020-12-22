@@ -1,0 +1,103 @@
+2020-11-24T07:20:46+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_price() in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-productlist.php:32
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#3 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-productlist.php alla riga 32
+
+2020-11-24T11:33:11+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderview.php:45
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#3 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderview.php alla riga 45
+
+2020-11-24T11:33:27+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on null in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderview.php:45
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#3 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderview.php alla riga 45
+
+2020-11-24T11:40:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function print_rr(), 0 passed in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderview.php on line 77 and exactly 1 expected in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php:75
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderview.php(77): print_rr()
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#4 {main}
+  thrown in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/functions.php alla riga 75
+
+2020-11-24T11:53:23+00:00 CRITICAL Uncaught Exception: Ordine non valido. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderedit.php(17): WC_Abstract_Order->__construct('46')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#6 {main} in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php alla riga 105
+
+2020-11-24T11:53:26+00:00 CRITICAL Uncaught Exception: Ordine non valido. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderedit.php(17): WC_Abstract_Order->__construct('46')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#6 {main} in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php alla riga 105
+
+2020-11-24T11:58:21+00:00 CRITICAL Uncaught Exception: Ordine non valido. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderview.php(18): WC_Abstract_Order->__construct('48')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#6 {main} in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php alla riga 105
+
+2020-11-24T11:58:26+00:00 CRITICAL Uncaught Exception: Ordine non valido. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderview.php(18): WC_Abstract_Order->__construct('48')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#6 {main} in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php alla riga 105
+
+2020-11-24T11:58:57+00:00 CRITICAL Uncaught Exception: Ordine non valido. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderview.php(18): WC_Abstract_Order->__construct('48')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#6 {main} in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php alla riga 105
+
+2020-11-24T11:59:43+00:00 CRITICAL Uncaught Exception: Ordine non valido. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderview.php(18): WC_Abstract_Order->__construct('48')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#6 {main} in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php alla riga 105
+
+2020-11-24T11:59:45+00:00 CRITICAL Uncaught Exception: Ordine non valido. in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/themes/shibuya/template-orderview.php(18): WC_Abstract_Order->__construct('48')
+#3 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-includes/template-loader.php(106): include('/var/www/vhosts...')
+#4 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-blog-header.php(19): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/index.php(17): require('/var/www/vhosts...')
+#6 {main} in /var/www/vhosts/myshibuya.it/ordina.myshibuya.it/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php alla riga 105
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23">
+  <g id="Notifiche" transform="translate(-1702 -22)">
+    <g id="Icon_ionic-ios-notifications" data-name="Icon ionic-ios-notifications" transform="translate(1695.239 21.07)">
+      <path id="Path_5" data-name="Path 5" d="M17.993,32.063c2.187,0,3.382-1.547,3.382-3.727H14.6C14.6,30.516,15.8,32.063,17.993,32.063Z" transform="translate(-3.244 -8.132)" fill="#7e7e7e"/>
+      <path id="Path_6" data-name="Path 6" d="M22.549,17.42c-.77-.924-2.284-1.466-2.284-5.6,0-4.248-2.059-5.955-3.979-6.365-.18-.041-.31-.1-.31-.269V5.05a1.224,1.224,0,0,0-2.439,0v.132c0,.168-.13.228-.31.269-1.925.414-3.979,2.117-3.979,6.365,0,4.138-1.515,4.676-2.284,5.6a.9.9,0,0,0,.795,1.448h14A.9.9,0,0,0,22.549,17.42Z" transform="translate(0)" fill="#7e7e7e"/>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(1712 22)" fill="#e92623" stroke="#707070" stroke-width="1">
+      <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+      <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+    </g>
+  </g>
+</svg>
